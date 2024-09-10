@@ -12,6 +12,7 @@ namespace CRUDF
 
 
 
+
         public static SqlConnection ObtenerConexion()
         {
             SqlConnection conexion = new SqlConnection("Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DBpersona;Data Source=DESKTOP-A05TUKP\\SQLEXPRESS");
